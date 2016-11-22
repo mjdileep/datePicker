@@ -1,6 +1,6 @@
 "# datePicker" 
 
-This script will help you to extract the date strings from a text field and return as an array of python datetime object.
+This script will help you to extract the date strings from a text field and return as an array of python datetime objects according to the order of their appearance.
 
 It supports on following date formats:
 
