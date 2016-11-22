@@ -225,6 +225,3 @@ def time_parser(text):
     except:
         pass
     return date
-print(analyzer("I want to go somewhere on 12th of nov, 2016 and I will be returning back on 2016.7.20"))
-
-[datetime.datetime(2016, 11, 12, 0, 0), datetime.datetime(2016, 7, 20, 0, 0)]
