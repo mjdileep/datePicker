@@ -9,7 +9,7 @@ def analyzer(text):
     for each in itr:
         time_entities.append(time_parser(each.group()))
         #time_entities.append(parse(each.group(),fuzzy=True))
-        return time_entities
+    return time_entities
 
 def time_parser(text):
     date=None
@@ -225,3 +225,6 @@ def time_parser(text):
     except:
         pass
     return date
+print(analyzer("I want to go somewhere on 12th of nov, 2016 and I will be returning back on 2016.7.20"))
+
+[datetime.datetime(2016, 11, 12, 0, 0), datetime.datetime(2016, 7, 20, 0, 0)]
